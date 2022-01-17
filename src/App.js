@@ -90,8 +90,8 @@ function App() {
                 <UnorderedList mb="10px">
                   <ListItem>
                     A Minting Dapp for a Generative art collection of
-                    Snowflakes. The SnowFlakes metadata usitlizes the animation
-                    URL metadata property to create a snowflake partice
+                    Snowflakes. The SnowFlakes metadata utilizes the animation
+                    URL metadata property to create a snowflake particle
                     animation using HTML5 canvas.
                   </ListItem>
                   <ListItem>
@@ -123,7 +123,7 @@ function App() {
                   <ListItem>
                     Built with NextJs, Chakra UI and stripe payment integration.
                   </ListItem>
-                  <ListItem>Currently in proof of concept stage.</ListItem>
+                  <ListItem>Currently in the proof of concept stage.</ListItem>
                 </UnorderedList>
                 <Link href="https://Nutritive.me" isExternal>
                   <Text fontWeight="bold">
