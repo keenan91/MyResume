@@ -30,7 +30,7 @@ import {
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 //import { Logo } from './Logo';
-// import img from './keenan2.JPG';
+import img from './keenan2.JPG';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 function App() {
@@ -147,7 +147,7 @@ function App() {
                 </UnorderedList>
               </GridItem>
               <GridItem colSpan={1} mt="15px">
-                {/* <Image src={img}></Image> */}
+                <Image src={img}></Image>
                 <Flex alignItems="center" justify="space-between" mt="20px">
                   <Text fontSize="2xl" fontWeight="bold" mb="10px">
                     Contact
