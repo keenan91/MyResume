@@ -32,6 +32,7 @@ import { ColorModeSwitcher } from './ColorModeSwitcher';
 //import { Logo } from './Logo';
 import img from './keenan2.JPG';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
+import { FaGithub } from 'react-icons/fa';
 
 function App() {
   return (
@@ -56,7 +57,10 @@ function App() {
             >
               <GridItem colSpan={2} w="100%">
                 <Heading pt="0px" align="top">
-                  Keenan Matrix
+                  Keenan Matrix{' '}
+                  <Link href="https://github.com/keenan91" isExternal>
+                    <Icon as={FaGithub} name="github" />
+                  </Link>
                 </Heading>
                 <Divider mb="30px" />
                 <Flex alignItems="center" justify="space-between">
