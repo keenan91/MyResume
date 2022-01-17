@@ -29,7 +29,7 @@ import {
   theme,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
+//import { Logo } from './Logo';
 // import img from './keenan2.JPG';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 
